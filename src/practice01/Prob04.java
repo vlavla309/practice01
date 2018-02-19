@@ -9,6 +9,13 @@ public class Prob04 {
 
 		System.out.print("문자열을 입력하세요 : ");
 		String text = scanner.nextLine();
-
+		
+		String out="";
+		for (char ch : text.toCharArray()) {
+			out+=ch;
+			System.out.println(out);
+		}
+		
+		scanner.close();
 	}
 }
