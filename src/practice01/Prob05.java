@@ -9,9 +9,10 @@ public class Prob05 {
 		for(int i=1; i<100; i++) {
 			int count = getCount(i);
 			if(count>0) {
-				System.out.print("\n"+i+" ");
+				System.out.print(i+" ");
 				for(int j=0; j<count; j++)
 					System.out.print("짝");
+				System.out.println();
 			}
 		}
 	}
